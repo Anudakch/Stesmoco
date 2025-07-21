@@ -1,0 +1,10 @@
+image:
+  repository: itbigsea/moocozin-shoes
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 8080
+
+containerPort: 8080
